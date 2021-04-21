@@ -53,41 +53,13 @@ export const projects: Project[]= [
         categories: ['react'],
         key_techs: ["react","chartJS", "Bootstrap"]
     },
-    
     {
-        name: "CGPA Calculator BD",
-        description: "This app used to calculate CGPA of universites in Bangladesh",
+        name: "Cricket Tracker Beta",
+        description: "Track realtime activiteis of cricket game",
         image_path: '/img/cgpa_calc.png',
         deployed_url: 'https://www.getcgpa.lithaxor.tech/',
-        github_url: 'https://github.com/LitHaxor/CGPA-Calculator-Bangladesh',
+        github_url: 'https://github.com/LitHaxor/CricketTracker',
         categories: ['react'],
-        key_techs: ["react","chartJS", "Bootstrap"]
-    },
-    {
-        name: "CGPA Calculator BD",
-        description: "This app used to calculate CGPA of universites in Bangladesh",
-        image_path: '/img/cgpa_calc.png',
-        deployed_url: 'https://www.getcgpa.lithaxor.tech/',
-        github_url: 'https://github.com/LitHaxor/CGPA-Calculator-Bangladesh',
-        categories: ['react'],
-        key_techs: ["react","chartJS", "Bootstrap"]
-    },
-    {
-        name: "CGPA Calculator BD",
-        description: "This app used to calculate CGPA of universites in Bangladesh",
-        image_path: '/img/cgpa_calc.png',
-        deployed_url: 'https://www.getcgpa.lithaxor.tech/',
-        github_url: 'https://github.com/LitHaxor/CGPA-Calculator-Bangladesh',
-        categories: ['react','nextjs'],
-        key_techs: ["react","chartJS", "Bootstrap"]
-    },
-    {
-        name: "CGPA Calculator BD",
-        description: "This app used to calculate CGPA of universites in Bangladesh",
-        image_path: '/img/cgpa_calc.png',
-        deployed_url: 'https://www.getcgpa.lithaxor.tech/',
-        github_url: 'https://github.com/LitHaxor/CGPA-Calculator-Bangladesh',
-        categories: ['react'],
-        key_techs: ["react","chartJS", "Bootstrap"]
+        key_techs: ["react","redux", "Bootstrap"]
     },
 ]
