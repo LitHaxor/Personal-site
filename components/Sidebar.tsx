@@ -30,7 +30,9 @@ const Sidebar = () => {
         className="flex items-center justify-center px-2 py-1 my-2 dark:bg-dark-100 bg-gray-200 rounded-full cursor-pointer dark:bg-black-500"
       >
         <CgWorkAlt className="w-6 h-6" />
-        <span>Download</span>
+        <a href="/pdf/Hasan_Ahamed.pdf" download>
+          Download CV
+        </a>
       </a>
 
       {/* Socials */}
@@ -54,8 +56,8 @@ const Sidebar = () => {
         className="py-4 my-5 dark:bg-dark-100  bg-gray-200 dark:bg-black-500 rounded-lg"
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
-        <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Dhaka,Bangladesh </span>
+        <div className="flex my-2 items-center justify-center">
+          <GoLocation className="mr-2" /> <span>Dhaka, Bangladesh </span>
         </div>
         <a className="my-2" href="mailto:officials.hasan@gmail.com">
           {" "}

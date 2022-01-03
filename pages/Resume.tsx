@@ -8,7 +8,7 @@ const Resume = () => {
     <div className="p-4">
       <div className="grid md:grid-cols-2 flex-row">
         <div className="flex flex-col">
-          <h3 className="text-2xl my-2 font-bold">
+          <h3 className="text-2xl my-2 ml-6  font-bold">
             <IoSchoolOutline className="inline-block mx-2" />
             Education
           </h3>
@@ -17,13 +17,13 @@ const Resume = () => {
           ))}
         </div>
         <div className="my-4">
-          <h3 className="text-2xl font-bold">
+          <h3 className="text-2xl ml-6 font-bold">
             <GiSkills className="inline-block mr-2" />
             Proffesional Experience
           </h3>
 
           {experices.map((exp) => (
-            <Experience experience={exp} />
+            <Experience key={exp.company} experience={exp} />
           ))}
         </div>
       </div>

@@ -7,7 +7,7 @@ interface IExperience {
 }
 const ExperienceComp: FC<IExperience> = ({ experience }) => {
   return (
-    <div className="mx-6 flex">
+    <div className="mx-6 my-4 flex">
       <MdWork className="inline-block w-8 h-12 mr-4 text-green-600" />
       <div>
         <a className="text-xl font-bold" href={experience.companyURL}>

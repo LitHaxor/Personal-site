@@ -3,7 +3,8 @@ import { FaServer } from "react-icons/fa";
 import { Experience, Project, Service } from "./type";
 import { AiOutlineApi } from "react-icons/ai";
 import { School } from "./type";
-
+import { GrDocker } from "react-icons/gr";
+import { IoServer } from "react-icons/io5";
 export const experices: Experience[] = [
   {
     Icon: FaServer,
@@ -39,16 +40,22 @@ export const services: Service[] = [
     Icon: FaServer,
   },
   {
-    title: "API Development",
+    title: "API Integration",
     about:
-      "Building fast scaleable API that serves everywhere using NEXTJS, Express ",
+      "Integrating third party api into the server by Scarping API, reading docs.",
     Icon: AiOutlineApi,
   },
   {
-    title: "API Development",
+    title: "Server Deployment",
     about:
-      "Building fast scaleable API that serves everywhere using NEXTJS, Express ",
-    Icon: AiOutlineApi,
+      "Automate  CI/CD pipeline using containerized environment by CI workflows.",
+    Icon: GrDocker,
+  },
+  {
+    title: "Database Administation",
+    about:
+      "Adminstating NoSQL, SQL databases. Writting migration script, mitigating SQL server.",
+    Icon: IoServer,
   },
 ];
 

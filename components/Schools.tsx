@@ -4,7 +4,7 @@ import { School } from "../type";
 import { FaUniversity } from "react-icons/fa";
 const Schools: FC<School> = ({ degree, graduation, name }) => {
   return (
-    <div className="mx-6 flex">
+    <div className="mx-6 my-4 flex">
       <FaUniversity className="inline-block w-8 h-12 mr-4 text-green-600" />
       <div>
         <h3 className="text-xl font-bold"> {name}</h3>
